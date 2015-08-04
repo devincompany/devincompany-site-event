@@ -1,0 +1,220 @@
+{
+
+    "devincompany": {
+        "slug": "your-city-urlname",
+        "facebook_thumb": "assets/images/thumbnail-facebook.png",
+        "banner": "assets/images/cover.jpg",
+        "logo": "assets/images/logo.png",
+        "event_date": "Oct 31, 2015 09:00:00",
+        "global_infos": "Google • 32 de dezembro de 2015 • Belo Horizonte • Minas Gerais",
+        "call_to_action": {
+            "link": "http://bit.ly/tickets_devincompany",
+            "text": "INSCRIÇÕES ABERTAS"
+        },
+        "about": {
+            "title": "O Dev in Company",
+            "text": "O Dev in Company surge para consolidar e suprir uma deficiência de comunicação entre empresas e profissionais do mercado, abrir portas para quem deseja levar conteúdo de qualidade para a comunidade e possibilitar uma maior interação e experiência entre os participantes, aumentando assim o network entre os presentes."
+        },
+        "contacts": {
+            "facebook": "https://www.facebook.com/devincompany",
+            "twitter": "https://twitter.com/devincompany",
+            "email": "contato@devincompany.in"
+        },
+        "location": {
+            "address": "Google • Avenida Bias Fortes, 382 • Lourdes • Belo Horizonte • MG",
+            "reference": "Próximo a Praça da Liberdade",
+            "lat": "-19.9295323",
+            "lon": "-43.9407365"
+        },
+        "ga": "UA-43646069-1",
+        "schedule": true
+    },
+
+    "lineup": [{
+        "name": "Off-time",
+        "scheduled_to": "99h99"
+    }, {
+        "name": "Off-time",
+        "scheduled_to": "99h99"
+    }, {
+        "name": "Off-time",
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "name": "Off-time",
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "name": "Off-time",
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "featured": true,
+        "last_speaker": true,
+        "photo": "assets/images/speakers/speaker.png",
+        "name": "Speaker",
+        "contact": "http://github.com/speakeronedevincompany",
+        "company": {
+            "name": "Company Name",
+            "site": "https://company.com"
+        },
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus neque explicabo est aperiam repellat tempora laboriosam voluptatum inventore consectetur minus, numquam ratione ullam earum suscipit, illum magni necessitatibus esse distinctio. Eveniet saepe numquam voluptatum consectetur repellat velit rerum iure animi autem cumque quidem illum dignissimos, aut, quas facere non dolores quo quibusdam consequatur. Vitae, assumenda nemo tempore quasi, quidem officiis voluptate facilis molestiae quas laudantium? Nesciunt cumque, in!",
+        "talk": {
+            "theme": "A super star deluxe talk!!!",
+            "desc": "Eum debitis minima impedit, eveniet soluta consequuntur praesentium sit? Ut voluptatum repellendus natus, fugit eligendi distinctio placeat enim tenetur rerum cumque perferendis a odio odit quia esse blanditiis ratione maxime expedita. Sed aliquid incidunt, consectetur ipsum inventore mollitia, cupiditate dignissimos, fugit consequatur velit sint possimus nihil ipsa dolore aliquam ipsam, voluptatum? Quibusdam, molestiae doloribus quaerat id obcaecati assumenda, voluptate at consequuntur recusandae ut, hic! Sit dolor architecto repellat tenetur, doloremque aspernatur delectus voluptate aliquam itaque eius aperiam a aut accusantium, pariatur culpa rem qui sed!"
+        },
+        "scheduled_to": "99h99"
+    }, {
+        "name": "Off-time",
+        "scheduled_to": "99h99"
+    }],
+
+    "partners": [{
+        "name": "Minas Dev",
+        "site": "http://minasdev.org",
+        "logo": "assets/images/partners/minasdev.png"
+    }, {
+        "name": "Partner",
+        "site": "http://www.partner.com",
+        "logo": "assets/images/partners/partner.png"
+    }, {
+        "name": "Partner",
+        "site": "http://www.partner.com",
+        "logo": "assets/images/partners/partner.png"
+    }, {
+        "name": "Partner",
+        "site": "http://www.partner.com",
+        "logo": "assets/images/partners/partner.png"
+    }],
+
+    "sponsors": [{
+        "name": "Sponsor",
+        "site": "http://www.sponsor.com",
+        "logo": "assets/images/sponsors/sponsor.png"
+    }, {
+        "name": "Sponsor",
+        "site": "http://www.sponsor.com",
+        "logo": "assets/images/sponsors/sponsor.png"
+    }],
+
+    "organizers": [{
+        "name": "Staff Member",
+        "photo": "assets/images/staff/member.png",
+        "contact": "http://member.com"
+    }, {
+        "name": "Staff Member",
+        "photo": "assets/images/staff/member.png",
+        "contact": "http://member.com"
+    }, {
+        "name": "Staff Member",
+        "photo": "assets/images/staff/member.png",
+        "contact": "http://member.com"
+    }, {
+        "name": "Staff Member",
+        "photo": "assets/images/staff/member.png",
+        "contact": "http://member.com"
+    }]
+
+}

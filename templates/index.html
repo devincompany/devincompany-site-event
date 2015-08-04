@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt_BR">
+<head>
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O Dev in Company surge para consolidar e suprir uma deficiência de comunicação entre empresas e profissionais do mercado, abrir portas para quem deseja levar conteúdo de qualidade para a comunidade e possibilitar uma maior interação e experiência entre os participantes, aumentando assim o network entre os presentes.">
+
+    <!-- TWITTER -->
+    <meta name="twitter:site" content="@devincompany">
+    <meta name="twitter:creator" content="@devincompany">
+    <!-- / TWITTER -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://devincompany.in/{{devincompany.slug}}">
+    <meta property="og:title" content="Dev in Company">
+    <meta property="og:description" content="O Dev in Company surge para consolidar e suprir uma deficiência de comunicação entre empresas e profissionais do mercado, abrir portas para quem deseja levar conteúdo de qualidade para a comunidade e possibilitar uma maior interação e experiência entre os participantes, aumentando assim o network entre os presentes.">
+    <meta property="og:image" content="http://devincompany.in/{{devincompany.facebook_thumb}}">
+    <!-- / FACEBOOK -->
+
+    <title>Dev in Company</title>
+    <link rel="shortcut icon" href="http://devincompany.in/favicon.ico" type="image/x-icon">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/styles/main.css">
+
+</head>
+<body>
+    <div class="page-wrapper">
+
+    <header>
+        <div class="fotos" style="background-image: url('{{devincompany.banner}}');"></div>
+        <div class="wrapper pos-a section-center infos">
+            <figure class="logo-header" id="logo">
+                <img src="{{devincompany.logo}}" alt="Dev in Company">
+            </figure>
+            <div class="countdown" id="counter" data-finaldate="{{devincompany.event_date}}">
+                <div class="time-bind">
+                    <span id="dias"></span>
+                    <span class="label">dias</span>
+                </div>
+                <div class="time-bind">
+                    <span id="horas"></span>
+                    <span class="label">horas</span>
+                </div>
+                <div class="time-bind">
+                    <span id="minutos"></span>
+                    <span class="label">minutos</span>
+                </div>
+                <div class="time-bind">
+                    <span id="segundos"></span>
+                    <span class="label">segundos</span>
+                </div>
+            </div>
+            <div class="chamada-devincompany">
+                <h2>{{devincompany.global_infos}}</span></h2>
+            </div>
+
+            <a href="{{devincompany.call_to_action.link}}" class="button-offer desktop">&#8668; {{devincompany.call_to_action.text}} &#8669;</a>
+        </div>
+    </header>
+
+    <a href="{{devincompany.call_to_action.link}}" class="button-offer mobile">{{devincompany.call_to_action.text}}</a>
+
+    <main role="main">
+        <div class="wrapper section-center">
+            <h1>{{devincompany.about.title}}</h1>
+            <p>{{devincompany.about.text}}</p>
+            <div class="socials">
+                <a target="_blank" href="{{devincompany.contacts.facebook}}" class="social">
+                    <img src="assets/images/facebook.png" alt="">
+                </a><a target="_blank" href="{{devincompany.contacts.twitter}}" class="social">
+                    <img src="assets/images/twitter.png" alt="">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    {{#if lineup}}
+    <section id="speakers">
+        <div class="wrapper section-center">
+
+            <h1 class="section-title">Quem vai estar lá?</h1>
+
+            {{#each lineup}}
+                {{#if featured}}
+                <article class="speaker {{#if last_speaker}}last{{/if}}">
+                    <figure class="inline-align-t">
+                        <img src="{{photo}}" alt="{{name}} | Palestrante">
+                    </figure>
+
+                    <div class="speaker-infos inline-align-t">
+                        <h1><a href="{{contact}}" target="_blank">{{name}}</a></h1>
+                        <span class="empresa"><a href="{{company.site}}" target="_blank">{{company.name}}</a></span>
+                        <p class="speaker-about">{{bio}}</p>
+                        <h2>{{talk.theme}}</h2>
+                        <p class="speaker-talk-desc">{{talk.desc}}</p>
+                    </div>
+
+                </article>
+                {{/if}}
+            {{/each}}
+
+        </div>
+    </section>
+    {{/if}}
+
+    {{#if lineup}}
+    {{#if devincompany.schedule}}
+    <section id="programacao">
+        <div class="wrapper section-center">
+            <h1>Programação</h1>
+            <!-- <h2>Em breve mais informações sobre a programação do evento.</h2> -->
+            <ul class="programacao-list">
+                {{#each lineup}}
+                    {{#if featured}}
+                        <li>
+                            <time>{{scheduled_to}}</time>
+                            <h6 class="destaque">{{name}}</h6>
+                        </li>
+                    {{else}}
+                        <li>
+                            <time>{{scheduled_to}}</time>
+                            <h6>{{name}}</h6>
+                        </li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    {{/if}}
+    {{/if}}
+
+    <section id="localizacao" class="{{#unless lineup}}inverse{{/unless}}">
+            <div class="legend">
+                <h1>Localização</h1>
+                <h2>{{devincompany.location.address}}</h2>
+                <h4>{{devincompany.location.reference}}</h4>
+            </div>
+            <div id="map" data-lat="{{devincompany.location.lat}}" data-lon="{{devincompany.location.lon}}"></div>
+    </section>
+
+    {{#if sponsors}}
+    <section id="patrocinios">
+        <div class="wrapper section-center">
+            <h1>Patrocínio</h1>
+            <ul class="patrocinios-list">
+                {{#each sponsors}}
+                    <li><a target="_blank" href="{{site}}"><img src="{{logo}}" alt="{{name}}"></a></li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    {{/if}}
+
+    <section id="apoios">
+        <div class="wrapper section-center">
+            <h1>Apoios</h1>
+            <ul class="apoios-list">
+                {{#each partners}}
+                    <li><a target="_blank" href="{{site}}"><img src="{{logo}}" alt="{{name}}"></a></li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+
+    <section id="organizacao">
+        <div class="wrapper section-center">
+            <h1>Organização</h1>
+            <ul class="staff-list">
+                {{#each organizers}}
+                <li><a target="_blank" href="{{contact}}"><img src="{{photo}}" alt="{{name}}"></a></li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+
+    <footer class="socials">
+        <a target="_blank" href="{{devincompany.contacts.facebook}}" class="social">
+            <img src="assets/images/facebook.png" alt="">
+        </a><a target="_blank" href="{{devincompany.contacts.twitter}}" class="social">
+            <img src="assets/images/twitter.png" alt="">
+        </a>
+        <a href="mailto:{{devincompany.contacts.email}}" class="mail">{{devincompany.contacts.email}}</a>
+    </footer>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/vendor/jquery.plugin/countdown.js"></script>
+    <script src="assets/scripts/main.js"></script>
+
+    <!-- GOOGLE ANALYTICS -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{devincompany.ga}}']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- /GOOGLE ANALYTICS -->
+</body>
+</html>
